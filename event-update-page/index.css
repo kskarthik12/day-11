@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 85px;
+}
+
+body {
+    background-color: aqua;
+}
+
+span {
+
+    margin-top: 70px;
+    margin-left: 35%;
+    font-size: 40px;
+}
+
+form {
+
+   
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+    position: relative;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+    padding-left: 100px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(140, 194, 194);
+    border: 2px solid black;
+}
+
+input {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    
+
+    
+    
+}
+
+select {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    width: 100px;
+}
+
+.cancel {
+    margin-left: 200px;
+    position: absolute;
+}
+
+label {
+    
+     font-weight: bold;
+     position: absolute;
+     right: 220px;
+     
+    
+    
+}
+button{
+    margin-bottom: 10px;
+    width:100px;
+    height: 30px;
+}
+
+
+@media (max-width:1025px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
+
+@media (max-width:801px) {
+    span{
+        font-size: 20px;
+        margin-left: 25%;
+    }
+    
+
+
+@media (max-width:600px) {
+    form{
+        margin-left: 5px;
+        margin-right: 350px;
+        
+        
+    }
+    .cancel{
+        
+        margin-left: 100px;
+    }
+    input{
+        margin-left: 90px;
+    }
+    select{
+        margin-left: 90px;
+    }
+    span{
+        font-size: 20px;
+        margin-left: 25%;
+    }
+    
+}
+
+
+
+
+
